@@ -13,4 +13,4 @@
 # num은 3000 이하인 자연수입니다.
 
 num, base = map(int, input().strip().split(' '))
-print(int(str(num),base))
+print(int(num,base))
